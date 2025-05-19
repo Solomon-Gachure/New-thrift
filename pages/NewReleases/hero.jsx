@@ -1,11 +1,11 @@
-import AddtocartButtons from '@/component/Buttons/addtocartButtons'
-import React from 'react'
+import AddtocartButtons from "@/component/Buttons/addtocartButtons";
+import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-10 p-6">
-      <div >
-        <img src="/heronews.png" alt="Newestshoe"  />
+    <div className="flex flex-col md:flex-row justify-between items-center">
+      <div>
+        <img src="/heronews.png" alt="Newestshoe" />
       </div>
 
       <div className="flex flex-col gap-4 max-w-xl md:max-w-lg">
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
